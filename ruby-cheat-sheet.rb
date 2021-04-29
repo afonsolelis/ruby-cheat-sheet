@@ -72,6 +72,14 @@ placeholder = "use string interpolation"
 "hello " + 3 #=> TypeError: can't convert Fixnum into String
 "hello " + 3.to_s #=> "hello 3"
 
+#Getting input
+1. tmp = gets
+hello
+=>"hello\n"
+
+2. tmp.chomp
+"hello"
+
 # print to the output
 puts "I'm printing!"
 
